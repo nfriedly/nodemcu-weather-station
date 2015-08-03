@@ -1,11 +1,9 @@
 httpClient = require "http-client"
-
--- woeid query: select woeid from geo.places(1) where text="Pleasant Hill, OH"
--- test at https://developer.yahoo.com/yql/console/
+config = require "config"
 
 local url = "https://query.yahooapis.com/v1/public/yql?format=json&q="
     .."select%20atmosphere.humidity%2Citem.condition.temp%2C%20item.condition.text"
-    .."%20from%20weather.forecast%20where%20woeid=2473861"
+    .."%20from%20weather.forecast%20where%20woeid="..config.woeid
     --skipping %2C%20item.forecast for now
         
 local y = {}
