@@ -6,7 +6,8 @@ Current version displays inside and outside temperature and humidity, current we
 ![prototype](https://raw.githubusercontent.com/nfriedly/nodemcu-weather-station/master/media/prototpe-1.jpg)
 
 ## Current parts list:
-* [ESP-12E w/ adapter board](http://www.electrodragon.com/product/esp8266-smd-adapter-board/) +  [Programmer](http://www.electrodragon.com/product/cp2102-usb-ttl-uart-module-v2/) + [M/F wires](http://www.electrodragon.com/product/prototype-cable-female-and-male-end-40p/) (Alternatively, a [NodeMCU dev kit](http://www.electrodragon.com/product/nodemcu-lua-amica-r2-esp8266-wifi-board/) could replace all three of these)
+* [ESP-12E w/ adapter board](http://www.electrodragon.com/product/esp8266-smd-adapter-board/) +  [Programmer](http://www.electrodragon.com/product/cp2102-usb-ttl-uart-module-v2/) + [M/F wires](http://www.electrodragon.com/product/prototype-cable-female-and-male-end-40p/)
+  * Alternatively, a [NodeMCU dev kit](http://www.electrodragon.com/product/nodemcu-lua-amica-r2-esp8266-wifi-board/) could replace all three of these
 * [DHT11 Temp/Humidity sensor](http://www.electrodragon.com/product/humidity-and-temperature-sensor-dht11/)
 * [128x64 i2c OLED](http://www.electrodragon.com/product/0-96-12864-oled-display-iicspi/)
 * [BMP180 Temp/Pressure sensor](http://www.electrodragon.com/product/bmp180-barometric-pressure-sensor-board/)
