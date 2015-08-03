@@ -18,9 +18,10 @@ Total cost: ~$25-30 w/ shipping
 ## Instructions
 
 1. Assemble everything as shown (sorry I don't have a better diagram yet). 
-2. Upload the firmare with [esptool](https://github.com/themadinventor/esptool/) (the repo includes a [custom build](http://frightanic.com/nodemcu-custom-build/) with extra fonts)
-3. Upload and compile all .lua scripts with [Esplorer](http://esp8266.ru/esplorer/)
-4. Enjoy!
+2. Put your wifi info and woeid into the config.lua.
+3. Upload the firmare with [esptool](https://github.com/themadinventor/esptool/) (the repo includes a [custom build](http://frightanic.com/nodemcu-custom-build/) with extra fonts)
+4. Upload and compile all .lua scripts with [Esplorer](http://esp8266.ru/esplorer/)
+5. Enjoy!
 
 ## Planned Changes
 
